@@ -1,0 +1,1455 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Molle:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(background.jpg);
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.637),rgba(0, 0, 0, 0.5)), url(Banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color:#FBF3EA;
+}
+.logo{
+    background-image: url(Logo.png);
+    background-size: contain;
+    display: inline-block;
+    background-repeat: no-repeat;
+    text-indent: -999999px;
+    width: 100px;
+    height: 50px;
+}
+nav{
+    color:#FBF3EA;
+}
+nav .main-ul{
+    float: right;
+    margin-right:20px ;
+}
+nav .main-ul li{
+  display: inline-block;
+  list-style-type: none;
+  margin: 0px 5px;
+
+}
+nav a{
+    color:inherit;
+    text-decoration: none;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.checkbtn{
+    font-size: 30px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.text{
+    text-align: center;
+    position: relative;
+    top: 170px;
+}
+.text h1{
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Molle', cursive;
+}
+.text h4{
+    margin-top: -25px;
+}
+.text button{
+    background: #FBF3EA;
+    border-radius: 10px;
+    border: none;
+    width: 120px;
+    height: 36px;
+    font-weight: bold;
+    font-size: 15px;
+    outline: none;
+}
+.section-1{
+    height: 100vh;
+    text-align: center;
+}
+.container{
+    border: none;
+    display: grid;
+    height: 70vh;
+    grid-template-columns: 800px ;
+    grid-template-rows: 450px ;
+    justify-content: center;
+    text-align: center;
+}
+.new{
+    border: none;
+    background: #FBF3EA;
+    box-shadow: 5px 4px 20px rgba(5, 11, 15, 0.55);
+    display: flex;
+    text-align: center;
+    border-radius: 30px;
+    justify-content: space-between;
+    position: relative;
+    top: -50px;
+}
+.section-1 h2{
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Molle', cursive;
+    font-size: 40px;
+}
+.opens{
+    border-radius: 10px;
+    background-color: black;
+    color: #FBF3EA;
+    height: 100%;
+    width: 230px;
+}
+.reservation{
+text-align: center;
+}
+.name{
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    border-bottom:1px solid rgba(5, 11, 15, 0.2);
+   background-color: transparent;
+}
+.tel{
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    border-bottom:1px solid rgba(5, 11, 15, 0.2);
+   background-color: transparent;
+}
+.email{
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    border-bottom:1px solid rgba(5, 11, 15, 0.2);
+   background-color: transparent;
+}
+.date{
+    border: none;
+    outline: none;
+    border-bottom:1px solid rgba(5, 11, 15, 0.2);
+   background-color: transparent;
+}
+.time{
+    margin-left: 10px;
+     border: none;
+    outline: none;
+    border-bottom:1px solid rgba(5, 11, 15, 0.2);
+   background-color: transparent;
+}
+.reservation button{
+    color: white;
+    width: 100px;
+height: 26px;
+background: #050B0F;
+border-radius: 5px;
+border: none;
+}
+.section-2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.637),rgba(0, 0, 0, 0.5)), url(background2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ text-align: center;
+ 
+}
+.slider{
+    display: none;
+}
+.first-chef{
+    margin-top: 80px;
+    width: 500px;
+    height:70%;
+    background: #FBF3EA;
+    border-radius: 30px;
+    line-height: 20px;
+}
+.second-chef{
+    margin-top: 80px;
+    width: 500px;
+    height: 70%;
+    background: #FBF3EA;
+    border-radius: 30px;
+    line-height: 20px;
+}
+.section-2 button{
+    color: white;
+    width: 100px;
+    height: 26px;
+    background: #050B0F;
+    border-radius: 5px;
+    border: none;
+}
+.sub-chef{
+    margin-top: 50px;
+}
+.section-3{
+    height: 100vh;
+}
+.word{
+    border:none;
+    background: #FBF3EA;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 2px -2px 20px rgba(5, 11, 15, 0.55);
+    border-radius: 20px;
+}
+.special-image{
+    text-align: center;
+    height: 100%;
+    width:400px ;
+}
+.special-word{
+    text-align: center;
+    background-color: black;
+    color: #FBF3EA ;
+    width: 400px;
+    line-height: 20px;
+    border-radius: 10px;
+}
+
+#image{
+    margin-top: 70px;
+    height:60%;
+     width:60%;
+}
+.section-3 h2{
+    font-family: 'Great Vibes', cursive;
+font-family: 'Molle', cursive;
+    font-size: 40px;
+}
+.special{
+    height: 80vh;
+    border: none;
+    display: grid;
+    grid-template-columns: 800px ;
+    grid-template-rows: 450px ;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+}
+.special-word button{
+ width: 100px;
+height: 26px;
+background: #FBF3EA;
+border-radius: 5px;
+border: none;
+}
+.section-4{
+    height: 70vh;
+}
+.section-4 h2{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Great Vibes', cursive;
+font-family: 'Molle', cursive;
+    font-size: 40px;
+}
+.menu{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.break p{
+    border: 1px solid rgba(5, 11, 15, 0.55);
+    border-radius: 30px;
+    width: 197px;
+    height: 198px;
+    background-image: url(breakfast.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.lunch p{
+    border: 1px solid rgba(5, 11, 15, 0.55);
+    border-radius: 30px;
+    width: 197px;
+    height: 198px;
+    background-image: url(lunch.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.dinner p{
+    border: 1px solid rgba(5, 11, 15, 0.55);
+    border-radius: 30px;
+    width: 197px;
+    height: 198px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.637),rgba(0, 0, 0, 0.5)),url(dinner.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #EFEFEF;
+    text-align: center;
+}
+
+.dinner span{
+   position: relative;
+   top: 80px;
+}
+.menu h5{
+    text-align: center;
+}
+.section-5{
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(review.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-5 h2{
+    text-align: center;
+    color: #FBF3EA;
+    margin-top: 70px;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Molle', cursive;
+    font-size: 40px;
+}
+.customers{
+    margin-top: 70px;
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    line-height: 25px;
+    text-align: center;
+}
+.review-1{
+    border: 3px solid #EFEFEF;
+    border-radius: 30px;
+    width: 200px;
+    background: rgba(5, 11, 15, 0.178);
+    color: #EFEFEF;
+}
+.section-6{
+    height:130vh;
+}
+.section-6 h2{
+    text-align:center;
+    margin-top: 70px;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Molle', cursive;
+    font-size: 40px;
+}
+.image-container{
+    display: grid;
+    height: 100vh;
+    border:none;
+    grid-template-columns: 420px 420px 420px;
+    grid-template-rows:300px 300px 300px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    
+}
+.image-item{
+    border: none;
+}
+.img-1{
+    background-image:url(Rectangle22.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img-2{
+    background-image:url(Rectangle21.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img-3{
+    background-image:url(Rectangle23.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img-4{
+    background-image:url(Rectangle20.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img-5{
+    background-image:url(Rectangle19.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img-6{
+    background-image:url(Rectangle18.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.section-6 button{
+    text-align: center;
+    border: 2px solid rgba(5, 11, 15, 0.55);
+    border-radius: 10px;
+    color: rgba(5, 11, 15, 0.55);
+    width: 90px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    text-align: center;
+}
+.section-7{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.205),rgba(0, 0, 0, 0.568)),url(address.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.address{
+    line-height: 60px;
+    height: 50vh;
+    width:550px;
+    position: relative;
+    top: 150px;
+    left: 0px;
+    background: rgba(5, 11, 15, 0.726);
+    border-radius: 20px;
+}
+.map{
+ position: relative;
+ top: 150px;
+}
+.address-1{
+    position: relative;
+    top: 70px;
+    left: 50px;
+    color: #FBF3EA;
+}
+footer{
+    height: 60vh;
+}
+.footer-container{
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 100% ;
+    grid-template-rows: 450px ;
+    justify-content: center;
+    text-align: center;
+    border: none;
+}
+.foot{
+    border:none;
+    text-align: center;
+    background: #FBF3EA;
+    display: flex;
+    justify-content: space-between;
+    
+}
+ .footer-1{
+    text-align: center;
+    height: 100%;
+    width: 500px;
+    background: #050B0F;
+    color: #EFEFEF;
+    line-height: 30px;
+    border-radius: 15px;
+    margin-left: -20px;
+}
+.footer-2{
+    text-align: left;
+    margin-right: 60px;
+    margin-top: 60px;
+}
+.footer-1 .log{
+   position: relative;
+   top: 60px;
+   right: 70px;
+    background-image: url(Logo.png);
+    background-size: contain;
+    display: inline-block;
+    background-repeat: no-repeat;
+    text-indent: -999999px;
+    width: 100px;
+    height: 50px;
+}
+.footer-1 p{
+    margin-top: 90px;
+}
+.box-1::placeholder{
+    position: relative;
+    left: 15px;
+}
+.box-1{
+    width: 530px;
+    height: 55px;
+    border: 2px solid rgba(5, 11, 15, 0.2);
+    border-radius: 30px;
+    outline: none;
+    background-color: #FBF3EA;
+}
+.box-2{
+    width: 150px;
+    height: 55px;
+    background: rgba(5, 11, 15, 0.2);
+    border-radius: 15px;
+    border: none;
+    color: rgba(5, 11, 15, 0.55);
+    outline: none;
+}
+.social{
+    margin-top: 100px;
+}
+@media screen and (max-width:1300px) and (min-width:800px){
+    .text h1{
+        text-transform: uppercase;
+    }
+    nav a{
+        font-size: 10px;
+    }
+    .image-container{
+        display: grid;
+        height: 70vh;
+        grid-template-columns: 250px 250px 250px;
+        grid-template-rows:230px 230px 230px;
+    }  
+    .first-chef{
+        width: 350px;
+        height:70%;
+    }
+    .second-chef{
+        width: 350px;
+        height: 70%;
+    }
+    .section-6{
+        height:100vh;
+    }
+    .footer-1{
+        font-size: 10px;
+        width: 400px;
+    }
+    .footer-1 .log{
+        position: relative;
+        right: 0px;
+    }
+    .box-2{
+        margin-top: 20px;
+    }
+}
+/*@media screen and (max-width:1080px)and (min-width:1040px){
+    header{
+        height: 100vh;
+    }
+    .text{
+        text-align: center;
+        position: relative;
+        top: 0px;
+    }
+    .text h1{
+        font-size: 30px;
+    }
+    .text h4{
+        font-size: 15px;
+        margin-top: 0px;
+    }
+     .section-1{
+        height: 120vh;
+    }
+    .container{
+        grid-template-columns: 500px ;
+        grid-template-rows: 450px ;
+        justify-content: center;
+        text-align: center;
+    }
+    .opens{
+        text-transform: lowercase;
+        width: 300px;
+        font-size: 12px;
+    }
+    .section-2{
+        height: 120vh
+    }
+    
+    .first-chef{
+        width: 250px;
+        height:80%;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .second-chef{
+        margin-top: 10px;
+        font-size: 10px;
+        width: 250px;
+        height: 80%;
+    }
+    .chef-1, .chef-2{
+        width: 50%;
+    }
+    .sub-chef{
+        margin-top: 12px;
+    }
+    .section-3{
+        height: 120vh;
+    }
+    .special{
+        grid-template-columns: 500px ;
+        grid-template-rows: 450px ;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .special-word{
+       font-size: 12px;
+    }
+    #image{
+        margin-top: 120px;
+        height:40%;
+         width:60%;
+    }
+    .map{
+        position: relative;
+        top: 0px;
+       }
+    .address{
+        line-height: 30px;
+        font-size: 12px;
+        height: 40vh;
+        width:350px;
+        position: relative;
+        top: 100px;
+        left: 0px;
+    }
+    .address-1{
+        position: relative;
+        top: 30px;
+        left: 0px;    
+    }
+    .break p, .lunch p, .dinner p{
+        border-radius: 30px;
+        width: 137px;
+        height: 138px;
+    }
+    .section-5{
+        height: 100vh;
+    }
+    .customers{
+        margin-top: -10px;
+        height: 78vh;
+        line-height: 25px;
+        text-align: center;
+    }
+    .review-1{
+        font-size: 12px;
+        width: 130px;
+        border-radius: 10px;
+    }
+    .image-container{
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows:180px 180px 180px;
+    }  
+    .section-6{
+        height:145vh;
+    }
+    .footer-1{
+        text-align: center;
+        height: 100%;
+        width: 50%;
+        line-height:25px;
+        font-size: 10px;
+}
+.box-1{
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+}
+.box-2{
+    width: 110px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.footer-1 .log{
+    position: relative;
+    right: 0px;
+}
+}*/
+@media screen and (max-width:1000px) and (min-width:950px){
+    header{
+        height: 50vh;
+    }
+    .text{
+        text-align: center;
+        position: relative;
+        top: 8px;
+    }
+    .text h1{
+        font-size: 40px;
+    }
+    .text h4{
+        font-size: 25px;
+        margin-top: 0px;
+    }
+    
+     .section-1{
+        height: 30vh;
+    }
+    .container{
+        grid-template-columns: 500px ;
+        grid-template-rows: 450px ;
+        justify-content: center;
+        text-align: center;
+    }
+    .opens{
+        width: 300px;
+        font-size: 12px;
+    }
+    .section-2{
+        height: 30vh
+    }
+    .first-chef{
+        width: 250px;
+        height:60%;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .second-chef{
+        margin-top: 10px;
+        font-size: 10px;
+        width: 250px;
+        height: 60%;
+    }
+    .chef-1, .chef-2{
+        width: 50%;
+    }
+    .sub-chef{
+        margin-top: 25px;
+    }
+    .section-3{
+        height: 30vh;
+    }
+    .special{
+        grid-template-columns: 500px ;
+        grid-template-rows: 450px ;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .special-word{
+       font-size: 12px;
+    }
+    #image{
+        margin-top: 120px;
+        height:40%;
+         width:60%;
+    }
+    .map{
+        position: relative;
+        top: 0px;
+       }
+    .address{
+        line-height: 30px;
+        font-size: 12px;
+        height: 10vh;
+        width:350px;
+        position: relative;
+        top: 100px;
+        left: 0px;
+    }
+    .address-1{
+        position: relative;
+        top: 30px;
+        left: 0px;    
+    }
+    .section-4{
+        height: 18vh;
+    }
+    .break p, .lunch p, .dinner p{
+        border-radius: 30px;
+        width: 137px;
+        height: 138px;
+    }
+    .section-5{
+        height: 25vh;
+    }
+    .customers{
+        margin-top: -10px;
+        height: 10vh;
+        line-height: 15px;
+        text-align: center;
+    }
+    .review-1{
+        font-size: 11px;
+        width: 130px;
+        border-radius: 10px;
+    }
+    .image-container{
+        height:25vh;
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows:180px 180px 180px;
+    }  
+    .section-6{
+        height:35vh;
+    }
+    .section-7{
+        height:40vh;
+    }
+    footer{
+        height: 20vh;
+    }
+    .footer-container{
+        height: 20vh;
+    }
+    .footer-1{
+        text-align: center;
+        height: 100%;
+        width: 50%;
+        line-height:25px;
+        font-size: 10px;
+}
+.box-1{
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+}
+.box-2{
+    width: 110px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.footer-1 .log{
+    position: relative;
+    right: 0px;
+}
+}
+/*@media screen and (max-width:951px) and (min-width:900px){
+    header{
+        height: 50vh;
+    }
+    .text{
+        text-align: center;
+        position: relative;
+        top: 60px;
+    }
+    .text h1{
+        font-size: 40px;
+    }
+    .text h4{
+        font-size: 25px;
+        margin-top: 0px;
+    }
+    
+     .section-1{
+        height: 60vh;
+    }
+    .container{
+        grid-template-columns: 500px ;
+        grid-template-rows: 450px ;
+        justify-content: center;
+        text-align: center;
+    }
+    .opens{
+        width: 300px;
+        font-size: 12px;
+    }
+    .section-2{
+        height: 60vh
+    }
+    .first-chef{
+        width: 250px;
+        height:70%;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .second-chef{
+        margin-top: 10px;
+        font-size: 10px;
+        width: 250px;
+        height: 70%;
+    }
+    .chef-1, .chef-2{
+        width: 50%;
+    }
+    .sub-chef{
+        margin-top: 50px;
+    }
+    .section-3{
+        height: 60vh;
+    }
+    .special{
+        grid-template-columns: 500px ;
+        grid-template-rows: 450px ;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .special-word{
+       font-size: 12px;
+    }
+    #image{
+        margin-top: 120px;
+        height:40%;
+         width:60%;
+    }
+    .map{
+        position: relative;
+        top: 0px;
+       }
+    .address{
+        line-height: 30px;
+        font-size: 12px;
+        height: 20vh;
+        width:350px;
+        position: relative;
+        top: 100px;
+        left: 0px;
+    }
+    .address-1{
+        position: relative;
+        top: 30px;
+        left: 0px;    
+    }
+    .section-4{
+        height: 40vh;
+    }
+    .break p, .lunch p, .dinner p{
+        border-radius: 30px;
+        width: 137px;
+        height: 138px;
+    }
+    .section-5{
+        height: 50vh;
+    }
+    .customers{
+        margin-top: -10px;
+        height: 20vh;
+        line-height: 15px;
+        text-align: center;
+    }
+    .review-1{
+        font-size: 11px;
+        width: 130px;
+        border-radius: 10px;
+    }
+    .image-container{
+        height:46vh;
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows:180px 180px 180px;
+    }  
+    .section-6{
+        height:65vh;
+    }
+    .section-7{
+        height:60vh;
+    }
+    footer{
+        height: 30vh;
+    }
+    .footer-container{
+        height: 30vh;
+    }
+    .footer-1{
+        text-align: center;
+        height: 100%;
+        width: 50%;
+        line-height:25px;
+        font-size: 10px;
+}
+.box-1{
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+}
+.box-2{
+    width: 110px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.footer-1 .log{
+    position: relative;
+    right: 0px;
+}
+}*/
+@media screen and (max-width:830px){
+    header{
+        height: 100vh;
+    }
+    .text{
+        text-align: center;
+        position: relative;
+        top: 0px;
+    }
+    .text h1{
+        font-size: 30px;
+    }
+    .text h4{
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    nav .main-ul{
+        color:#FBF3EA;
+         height: 60vh;
+         width: 100%;
+         background-color: rgba(0, 0, 0, 0.6);
+         position: fixed;
+         top: 20px;
+         left: -100%;
+         text-align: center;
+         transition: all .5s;
+         z-index: 1;
+     }
+     nav .main-ul li{
+         display: block;
+         padding: 5px;
+     }
+     nav .main-ul li a{
+         font-size: 10px;
+     }
+     nav .main-ul li a:hover{
+         background: slategray;
+     transition: .5s;
+     }
+     #check:checked ~ ul{
+         left: 0;
+     }
+     .section-1{
+        height: 120vh;
+    }
+    .container{
+        grid-template-columns: 500px ;
+        grid-template-rows: 450px ;
+        justify-content: center;
+        text-align: center;
+    }
+    .opens{
+        width: 300px;
+        font-size: 12px;
+    }
+    .section-2{
+        height: 120vh
+    }
+    
+    .first-chef{
+        width: 250px;
+        height:80%;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .second-chef{
+        margin-top: 10px;
+        font-size: 10px;
+        width: 250px;
+        height: 80%;
+    }
+    .chef-1, .chef-2{
+        width: 50%;
+    }
+    .sub-chef{
+        margin-top: 12px;
+    }
+    .section-3{
+        height: 120vh;
+    }
+    .special{
+        grid-template-columns: 500px ;
+        grid-template-rows: 450px ;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .special-word{
+       font-size: 12px;
+    }
+    #image{
+        margin-top: 120px;
+        height:40%;
+         width:60%;
+    }
+    .map{
+        position: relative;
+        top: 0px;
+       }
+    .address{
+        line-height: 30px;
+        font-size: 12px;
+        height: 40vh;
+        width:350px;
+        position: relative;
+        top: 100px;
+        left: 0px;
+    }
+    .address-1{
+        position: relative;
+        top: 30px;
+        left: 0px;    
+    }
+    .break p, .lunch p, .dinner p{
+        border-radius: 30px;
+        width: 137px;
+        height: 138px;
+    }
+    .section-5{
+        height: 100vh;
+    }
+    .customers{
+        margin-top: -10px;
+        height: 78vh;
+        line-height: 25px;
+        text-align: center;
+    }
+    .review-1{
+        font-size: 12px;
+        width: 130px;
+        border-radius: 10px;
+    }
+    .image-container{
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows:180px 180px 180px;
+    }  
+    .section-6{
+        height:145vh;
+    }
+    .footer-1{
+        text-align: center;
+        height: 100%;
+        width: 50%;
+        line-height:25px;
+        font-size: 10px;
+}
+.box-1{
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+}
+.box-2{
+    width: 110px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.footer-1 .log{
+    position: relative;
+    right: 0px;
+}
+}
+@media screen and (max-width:580px){
+    header{
+        height: 50vh;
+        background-position: center;
+        background-size: cover;
+    }
+    .text h1{
+        font-size: 20px;
+    }
+    .text button{
+     position: relative;
+     top: -50px;
+    }
+    .section-1{
+        height: 80vh;
+    }
+    .container{
+        grid-template-columns: 100%;
+        grid-template-rows: 350px ;
+        justify-content: center;
+        text-align: center;
+    }
+    .opens{
+        font-size: 10px;
+    }
+    .section-1 h2{
+        font-size: 20px;
+    }
+    .section-2{
+        height: 80vh
+    }
+    #desktop{
+        display: none;
+    }
+    .slider{
+        width: 300px;
+        height:95%;
+        display: flex;
+        overflow-x: auto;
+    }
+    .slide{
+        background: rgba(5, 11, 15, 0.726);
+        flex-shrink: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .first-chef, .second-chef{
+        height: 80%;
+       margin-left: 25px;
+    }
+    .section-3{
+        height: 80vh;
+    }
+    .special{
+        grid-template-columns: 100%;
+        grid-template-rows: 450px ;
+        justify-content: center;
+        text-align: center;
+    }
+    .section-3 h2{
+        font-size: 20px;
+    }
+    .break p, .lunch p, .dinner p{
+        border-radius: 15px;
+        width: 80px;
+        height: 80px;
+    }
+    .section-4{
+        height: 30vh;
+    }
+    .section-4 h2{
+        font-size: 20px;
+    }
+    .dinner span{
+        position: relative;
+        top: 25px;
+        font-size: 10px;
+     } 
+     .section-5{
+        height: 60vh;
+    }
+     .customers{
+        height: 25vh;
+        line-height: 10px;
+        text-align: center;
+    }
+    .review-1{
+        font-size: 10px;
+        width: 100px;
+        border-radius: 10px;
+    }
+    .section-5 h2{
+        font-size: 20px;
+    }
+    .section-6{
+        height:100vh;
+    }
+    .section-6 h2{
+        font-size: 20px;
+    }
+    .image-container{
+        grid-template-columns: 170px 170px;
+        grid-template-rows:150px 180px ;
+        height: 80vh;
+    }  
+   /* .img-5,  .img-6{
+        margin-top: -180px;
+    }*/
+    .section-7{
+        height: 60vh;  
+    }
+    .address{
+        line-height: 15px;
+        font-size: 12px;
+        width: 310px;
+        position: relative;
+        top: 30px;
+        left:5px;
+    }
+    footer{
+         height: 0vh;
+     }
+    .footer-container{
+        height: 0vh;
+    }
+    .footer-1{
+        text-align: center;
+        height: 100%;
+        width: 180%;
+        line-height:20px;
+        font-size: 7px;
+        margin-left: -10px;
+    }
+    .box-1{
+        width: 150px;
+        height: 35px;
+        border-radius: 10px;
+    }
+    .box-2{
+        width: 100px;
+        height: 35px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .social{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:768px)and (min-width:765px){
+     header{
+        height: 50vh;
+    }
+    .text{
+        text-align: center;
+        position: relative;
+        top: 60px;
+    }
+    .text h1{
+        font-size: 40px;
+    }
+    .text h4{
+        font-size: 25px;
+        margin-top: 0px;
+    }
+    
+     .section-1{
+        height: 60vh;
+    }
+    .container{
+        grid-template-columns: 500px ;
+        grid-template-rows: 450px ;
+        justify-content: center;
+        text-align: center;
+    }
+    .opens{
+        width: 300px;
+        font-size: 12px;
+    }
+    .section-2{
+        height: 60vh
+    }
+    .first-chef{
+        width: 250px;
+        height:70%;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .second-chef{
+        margin-top: 10px;
+        font-size: 10px;
+        width: 250px;
+        height: 70%;
+    }
+    .chef-1, .chef-2{
+        width: 50%;
+    }
+    .sub-chef{
+        margin-top: 50px;
+    }
+    .section-3{
+        height: 60vh;
+    }
+    .special{
+        grid-template-columns: 500px ;
+        grid-template-rows: 450px ;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .special-word{
+       font-size: 12px;
+    }
+    #image{
+        margin-top: 120px;
+        height:40%;
+         width:60%;
+    }
+    .map{
+        position: relative;
+        top: 0px;
+       }
+    .address{
+        line-height: 30px;
+        font-size: 12px;
+        height: 20vh;
+        width:350px;
+        position: relative;
+        top: 100px;
+        left: 0px;
+    }
+    .address-1{
+        position: relative;
+        top: 30px;
+        left: 0px;    
+    }
+    .section-4{
+        height: 40vh;
+    }
+    .break p, .lunch p, .dinner p{
+        border-radius: 30px;
+        width: 137px;
+        height: 138px;
+    }
+    .section-5{
+        height: 50vh;
+    }
+    .customers{
+        margin-top: -10px;
+        height: 20vh;
+        line-height: 15px;
+        text-align: center;
+    }
+    .review-1{
+        font-size: 11px;
+        width: 130px;
+        border-radius: 10px;
+    }
+    .image-container{
+        height:46vh;
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows:180px 180px 180px;
+    }  
+    .section-6{
+        height:65vh;
+    }
+    .section-7{
+        height:60vh;
+    }
+    footer{
+        height: 30vh;
+    }
+    .footer-container{
+        height: 30vh;
+    }
+    .footer-1{
+        text-align: center;
+        height: 100%;
+        width: 50%;
+        line-height:25px;
+        font-size: 10px;
+}
+.box-1{
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+}
+.box-2{
+    width: 110px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.footer-1 .log{
+    position: relative;
+    right: 0px;
+}
+}
+
+  
